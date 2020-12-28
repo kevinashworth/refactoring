@@ -1,6 +1,6 @@
-const invoices = require('./invoices')
-const plays = require('./plays')
+const invoices = require('./invoices');
+const plays = require('./plays');
 
-const statement = require('./statement')
+const statement = require('./statement');
 
-console.log(statement(invoices[0], plays))
+console.log(statement(invoices[0], plays));
