@@ -15,6 +15,7 @@
   },
   "semistandard": {
     "ignore": [
+      "createStatementData.js",
       "statement.js"
     ]
   }
