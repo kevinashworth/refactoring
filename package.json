@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "semistandard && mocha"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,10 @@
   "devDependencies": {
     "mocha": "^8.2.1",
     "semistandard": "^16.0.0"
+  },
+  "semistandard": {
+    "ignore": [
+      "statement.js"
+    ]
   }
 }

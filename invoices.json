@@ -15,5 +15,22 @@
         "audience": 40
       }
     ]
+  },
+  {
+    "customer": "BigCo2",
+    "performances": [
+      {
+        "playID": "hamlet",
+        "audience": 110
+      },
+      {
+        "playID": "as-like",
+        "audience": 70
+      },
+      {
+        "playID": "othello",
+        "audience": 80
+      }
+    ]
   }
 ]
