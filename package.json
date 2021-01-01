@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard && mocha"
+    "test": "semistandard && mocha",
+    "compile": "babel src --out-dir dist --copy-files"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
     "mocha": "8.2.1",
     "semistandard": "16.0.0"
   },

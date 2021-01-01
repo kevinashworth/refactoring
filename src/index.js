@@ -1,5 +1,5 @@
-const invoices = require('./invoices');
-const plays = require('./plays');
+const invoices = require('./data/invoices');
+const plays = require('./data/plays');
 
 const statement = require('./statement').statement;
 const htmlStatement = require('./statement').htmlStatement;

@@ -1,11 +1,11 @@
 /* eslint-env mocha */
 const assert = require('assert');
 
-const invoices = require('../invoices');
-const plays = require('../plays');
+const invoices = require('../src/data/invoices');
+const plays = require('../src/data/plays');
 
-const statement = require('../statement').statement;
-const htmlStatement = require('../statement').htmlStatement;
+const statement = require('../src/statement').statement;
+const htmlStatement = require('../src/statement').htmlStatement;
 
 describe('Invoice Statements', function () {
   describe('Invoice 0 (plain)', function () {
