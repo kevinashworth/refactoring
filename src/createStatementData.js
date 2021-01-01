@@ -1,20 +1,11 @@
 class PerformanceCalculator {
-  constructor(aPerformance, aPlay) {
+  constructor (aPerformance, aPlay) {
     this.performance = aPerformance;
     this.play = aPlay;
   }
 
   get amount () {
-    let result = 0;
-    switch (this.play.type) {
-      case "tragedy":
-        throw 'bad tragedy';
-      case "comedy":
-        throw 'bad comedy';
-      default:
-        throw new Error(`unknown type: ${this.play.type}`);
-    }
-    return result;
+    throw new Error('subclass responsibility');
   }
 
   get volumeCredits () {
