@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/cli": "7.13.0",
     "@babel/core": "7.13.1",
-    "mocha": "8.2.1",
+    "mocha": "8.3.0",
     "semistandard": "16.0.0"
   },
   "semistandard": {
